@@ -1,0 +1,183 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" version="26.0.11">
+  <diagram name="Page-1" id="K_1HAIB4Y08-JFfTcSFF">
+    <mxGraphModel dx="1097" dy="1796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="445" y="350" as="sourcePoint" />
+            <mxPoint x="445" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-3" target="ovkAF5jEAZz5KVSmZj-2-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-3" value="/start triggers -&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;URL: http://{flaskApp}/taskTrigger&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="400" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-4" target="ovkAF5jEAZz5KVSmZj-2-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-4" value="Entry Point -&amp;gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;URL: http://{flaskApp}/start&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="315" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-14" target="ovkAF5jEAZz5KVSmZj-2-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-14" target="ovkAF5jEAZz5KVSmZj-2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-14" target="ovkAF5jEAZz5KVSmZj-2-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-14" target="ovkAF5jEAZz5KVSmZj-2-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="125" />
+              <mxPoint x="590" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-14" target="ovkAF5jEAZz5KVSmZj-2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-14" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div&gt;# config.json &lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;access_token&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;databricks_cluster&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;job_id&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;total_tasks&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;3&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;offset&quot;&lt;/span&gt;: &lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;0&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;&quot;tasks&quot;&lt;/span&gt;: [&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;task1&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;task2&quot;&lt;/span&gt;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;task3&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ]&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" width="230" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-17" target="ovkAF5jEAZz5KVSmZj-2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-17" value="&lt;div&gt;Use the offset index to trigger the tasks[offset] task&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-18" value="After a task is triggered, check it&#39;s status. If ran successfully, increment the offset" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-23" value="&lt;b&gt;Task format:&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;task_name = extract_from_task_params&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;offset = extract_from_job_params&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;while(offset != task_name):&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;time.sleep(1)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;offset = extract_again&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;# extraction happens in &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;O(1) as it&#39;s a Databricks &lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;variable&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;# Execute the task&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-10" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-25" target="ovkAF5jEAZz5KVSmZj-2-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-25" value="task1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-29" target="ovkAF5jEAZz5KVSmZj-2-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-29" target="ovkAF5jEAZz5KVSmZj-2-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="-80" />
+              <mxPoint x="180" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-29" value="status check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-31" target="ovkAF5jEAZz5KVSmZj-2-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-31" value="task2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-33" target="ovkAF5jEAZz5KVSmZj-2-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-33" target="ovkAF5jEAZz5KVSmZj-2-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="-80" />
+              <mxPoint x="460" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-33" value="status&lt;div&gt;check&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-35" value="So on..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-60" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-42" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;Status Check Format&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;task_name = extract_from_task_params&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;offset = extract_from_job_params&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;while(offset != task_name):&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;time.sleep(1)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;offset = extract_again&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;# extraction happens in&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;O(1) as it&#39;s a Databricks&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;variable&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;# Flask API call. If status call 200, increment offset, else failure&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="610" y="160" width="350" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-47" target="ovkAF5jEAZz5KVSmZj-2-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-47" value="Trigger task tasks[offset]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="410" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-49" target="ovkAF5jEAZz5KVSmZj-2-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-49" target="ovkAF5jEAZz5KVSmZj-2-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-49" value="offset &amp;gt;=&lt;div&gt;total_tasks?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="375" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-52" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-53" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-56" value="End" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="583" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-58" target="ovkAF5jEAZz5KVSmZj-2-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-58" value="check status of tasks[offset]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="460" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-60" target="ovkAF5jEAZz5KVSmZj-2-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-60" value="success?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="695" y="518" width="70" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-62" target="ovkAF5jEAZz5KVSmZj-2-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="525" />
+              <mxPoint x="330" y="425" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-62" value="Increment offset" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="510.5" width="110" height="29.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-65" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-60" target="ovkAF5jEAZz5KVSmZj-2-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-67" value="Job successful" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="500" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-69" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="720" y="583" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.579;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ovkAF5jEAZz5KVSmZj-2-67" target="ovkAF5jEAZz5KVSmZj-2-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ovkAF5jEAZz5KVSmZj-2-78" value="Set a Job parameter named offset to keep a track of the {offset}th task to be triggered. Set a task parameter named task_name to retrieve the task_name of the current task. task_name task parameter and offset job parameter will be used as a check to know if the current task is to be executed or not" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-140" width="810" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
