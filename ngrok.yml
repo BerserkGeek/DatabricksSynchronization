@@ -1,0 +1,5 @@
+version: "3"
+agent:
+    authtoken: ""
+    connect_timeout: 10s
+    connect_cas: "trusted"

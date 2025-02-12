@@ -1,0 +1,18 @@
+{
+    "access_token": "",
+    "databricks_cluster": "",
+    "job_id": "",
+    "Content-Type": "application/json",
+    "total_tasks": 3,
+    "offset": 0,
+    "tasks_id": {
+        "0":"task1",
+        "1": "task2",
+        "2": "task3"
+    },
+    "task_name": {
+        "task1":"0",
+        "task2": "1",
+        "task3": "2"
+    }
+}
