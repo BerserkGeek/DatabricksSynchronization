@@ -1,0 +1,10 @@
+{
+    "constant": {
+        "CBTConstant1": 3.14,
+        "CBTConstant2": 42,
+        "CBTConstant3": 68.71
+    },
+    "variable": [
+        "CBTVariable1", "CBTVariable2", "CBTVariable3"
+    ]
+}
